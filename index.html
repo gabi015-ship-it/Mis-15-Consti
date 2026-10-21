@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Mis 15 Años</title>
+  <link rel="stylesheet" href="estilos.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Cormorant+Garamond:wght@400;500;600;700&family=Great+Vibes&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div id="contenedor-principal">
+    <div id="inicio" class="pantalla activa">
+      <video id="videoIntro" class="video-fondo">
+        <source src="video/intro.mp4" type="video/mp4">
+      </video>
+      <div id="mensaje">Toca el centro para comenzar</div>
+    </div>
+
+    <div id="elegante" class="pantalla">
+      <video id="videoFondoInvitacion" class="video-fondo-loop" muted loop playsinline>
+        <source src="video/fondo-invitacion.mp4" type="video/mp4">
+      </video>
+
+      <div class="video-overlay"></div>
+
+      <div class="scroll-container">
+        
+        <section class="seccion-info">
+          <h1 class="dato-secundario">Hay sueños que se tejen con hilos de ilusión y momentos que se graban en el alma para siempre. </h1>
+          <p class="titulo-grande">Mis 15 Años</p>
+          <p class="dato-secundario">"Hoy abro la puerta al capítulo más hermoso de mi vida, y me llena de felicidad que formes parte de él."</p>
+          <div class="scroll-indicador">↓ Desliza para descubrir más ↓</div>
+        </section>
+
+        
+        <!-- SECCIÓN DE LA FIESTA -->
+        <section class="seccion-info seccion-fiesta">
+          <p class="dato-secundario">: "Una noche única merece ser vivida con las personas que más quiero. Prepara tu mejor sonrisa porque nos espera una gran celebración."</p>
+          <h2 class="dato-resaltante">Sábado 28 de Noviembre</h2>
+          <p class="dato-resaltante">22:00hs</p>
+          <p class="titulo-lugares">Salon de Fiestas "LEMF"</p>
+          <a href="https://maps.app.goo.gl/d6F7x9GoJKANiBKR7" target="_blank">
+            <img src="img/ubi2.gif" class="gif-mapa" alt="Ver ubicación">
+          </a>
+        </section>
+
+
+        <!-- SECCIÓN DE CUENTA REGRESIVA -->
+        <section class="seccion-info seccion-contador-elegante">
+          <div class="contador-elegante-card" aria-label="Cuenta regresiva para la fiesta de quince años">
+            <p class="contador-elegante-eyebrow">Una noche para recordar</p>
+            <h2 class="contador-elegante-script-title">Mis 15 años</h2>
+            <p class="contador-elegante-date-line">28 · NOVIEMBRE · 2026 &nbsp;|&nbsp; 22:00 HS</p>
+            <div class="contador-elegante-ornament" aria-hidden="true">✧ ♡ ✧</div>
+            <div class="contador-elegante-units" id="countdownElegante" role="timer" aria-live="off">
+              <div class="contador-elegante-unit"><span class="contador-elegante-number" id="diasCuenta">00</span><span class="contador-elegante-label">Días</span></div>
+              <div class="contador-elegante-unit"><span class="contador-elegante-number" id="horasCuenta">00</span><span class="contador-elegante-label">Horas</span></div>
+              <div class="contador-elegante-unit"><span class="contador-elegante-number" id="minutosCuenta">00</span><span class="contador-elegante-label">Minutos</span></div>
+              <div class="contador-elegante-unit"><span class="contador-elegante-number" id="segundosCuenta">00</span><span class="contador-elegante-label">Segundos</span></div>
+            </div>
+            <p class="contador-elegante-footer" id="mensajeCuenta">La magia está por comenzar…</p>
+          </div>
+          <div class="contador-elegante-indicador">↓ Desliza para descubrir más ↓</div>
+        </section>
+
+
+        <!-- ================= PANTALLA 1: PORTADA DRESS CODE (ELEGANTE SPORT) ================= -->
+        <section class="seccion-info seccion-dress-magico seccion-dress-portada">
+          <div class="dress-destellos-fondo" aria-hidden="true">
+            <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+          </div>
+
+          <div class="dress-portada-card">
+            <div class="contador-elegante-ornament" aria-hidden="true">✧ ✦ ✧</div>
+            <h2 class="dress-titulo-principal dress-portada-titulo">
+              <span class="estrella-magica">✦</span> Elegante Sport <span class="estrella-magica">✦</span>
+            </h2>
+            <p class="dress-subtitulo-magico dress-portada-subtitulo">✧ Dress Code ✧</p>
+            <div class="contador-elegante-ornament dress-ornamento-inferior" aria-hidden="true">✧ ♡ ✧</div>
+          </div>
+
+          <div class="scroll-indicador">↓ Desliza para ver más ↓</div>
+        </section>
+
+
+        <!-- ================= PANTALLA 2: SECTOR MUJERES (ELLAS) ================= -->
+        <section class="seccion-info seccion-dress-magico">
+          <div class="dress-destellos-fondo" aria-hidden="true">
+            <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+          </div>
+
+          <div class="dress-sector-libre">
+            <h3 class="dress-sector-titulo dress-titulo-grande">
+              <span class="estrella-magica">✧</span> Ellas <span class="estrella-magica">✧</span>
+            </h3>
+            <img src="img/Mujeres.gif" alt="Ellas" class="dress-gif-gigante">
+          </div>
+
+          <div class="scroll-indicador">↓ Desliza para ver más ↓</div>
+        </section>
+
+
+        <!-- ================= PANTALLA 3: SECTOR HOMBRES (ELLOS) ================= -->
+        <section class="seccion-info seccion-dress-magico">
+          <div class="dress-destellos-fondo" aria-hidden="true">
+            <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+          </div>
+
+          <div class="dress-sector-libre">
+            <h3 class="dress-sector-titulo dress-titulo-grande">
+              <span class="estrella-magica">✧</span> Ellos <span class="estrella-magica">✧</span>
+            </h3>
+            <img src="img/Hombres.gif" alt="Ellos" class="dress-gif-gigante">
+          </div>
+
+          <div class="scroll-indicador">↓ Desliza para ver más ↓</div>
+        </section>
+
+
+        <!-- ================= PANTALLA 4: COLORES NO PERMITIDOS ================= -->
+        <section class="seccion-info seccion-dress-magico">
+          <div class="dress-destellos-fondo" aria-hidden="true">
+            <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+          </div>
+
+          <div class="dress-sector-card dress-card-individual">
+            <h3 class="dress-sector-titulo">Color Reservado Para La Quinceañera</h3>
+            <div class="dress-media-box">
+              <img src="img/color1.png" alt="Colores No Permitidos" class="dress-archivo-central">
+            </div>
+          </div>
+
+          <div class="scroll-indicador">↓ Desliza para descubrir más ↓</div>
+        </section>
+
+
+        <!-- SECCIÓN OBSEQUIO -->
+        <section class="seccion-info">
+          <img src="img/regalo.gif" class="gif-regalo" alt="Regalo">
+
+          <p class="dato-secundario">Tu presencia es el mejor regalo que podría recibir en mi fiesta. </p>
+          <p class="dato-secundario"> Si además deseas hacerme un presente para ayudarme a cumplir mis metas, te lo agradezco de corazón."</p>
+
+          <button class="btn-plata" id="btnBancarios">💳 DATOS BANCARIOS</button>
+
+          <div id="datosBancarios" class="datos-bancarios" style="display: none;">
+            <p>🏦 Banco: Mercado Pago</p>
+            <p>📊 CBU: XXXXXXXXXXXXXXXX</p>
+            <p>👤 Titular: Constanza valentina bravo siman</p>
+            <p>📧 Alias: consti.mp13</p>
+          </div>
+        </section>
+
+        <!-- SECCIÓN CONFIRMACIÓN -->
+        <section class="seccion-info">
+          <h2 class="dato-principal">¿Me acompañas?</h2>
+          <h2 class="dato-secundario">Confirma tu asistencia</h2>
+          <div class="botones-finales">
+            <a href="#" id="btnWhatsapp" class="btn-plata">💬 WHATSAPP</a>
+          </div>
+          <p class="dato-secundario mt-20"> "Para que esta noche sea perfecta e inolvidable, confírmanos tu presencia. ¡Te esperamos con los brazos abiertos!" </p>
+        </section>
+
+      </div>
+    </div>
+
+    <audio id="musica" src="audio/musica.mp3"></audio>
+  </div>
+
+  <script src="script.js"></script>
+  <script>
+    // ===== EFECTO MÁGICO DE ESCRITURA A MANO ALZADA PALABRA POR PALABRA =====
+    document.addEventListener("DOMContentLoaded", () => {
+      // Seleccionamos todos los textos blancos de las secciones
+      const selectoresTextoBlanco = [
+        ".seccion-info .dato-secundario",
+        ".seccion-info .titulo-grande",
+        ".seccion-info .dato-resaltante",
+        ".seccion-info .titulo-lugares",
+        ".seccion-info .dato-principal"
+      ];
+
+      const elementosTexto = document.querySelectorAll(selectoresTextoBlanco.join(", "));
+
+      elementosTexto.forEach((el) => {
+        const textoOriginal = el.textContent.trim();
+        if (!textoOriginal) return;
+
+        const palabras = textoOriginal.split(/\s+/);
+        el.innerHTML = "";
+        el.classList.add("texto-magico-contenedor");
+
+        palabras.forEach((palabra) => {
+          const spanPalabra = document.createElement("span");
+          spanPalabra.className = "palabra-magica";
+          spanPalabra.textContent = palabra;
+
+          // Pequeños destellos mágicos que brotan al escribir cada palabra
+          const destello1 = document.createElement("i");
+          destello1.className = "chispa-escritura c1";
+          const destello2 = document.createElement("i");
+          destello2.className = "chispa-escritura c2";
+
+          spanPalabra.appendChild(destello1);
+          spanPalabra.appendChild(destello2);
+
+          el.appendChild(spanPalabra);
+          el.appendChild(document.createTextNode(" "));
+        });
+      });
+
+      // Función que anima palabra por palabra los textos de una sección cuando entra en pantalla
+      const animarSeccion = (seccion) => {
+        const palabrasSeccion = seccion.querySelectorAll(".palabra-magica");
+        palabrasSeccion.forEach((palabra, index) => {
+          palabra.classList.remove("escribiendo");
+          void palabra.offsetWidth; // Forzar reflow para reiniciar la animación
+          palabra.style.animationDelay = `${index * 0.16}s`;
+          const chispas = palabra.querySelectorAll(".chispa-escritura");
+          chispas.forEach((chispa, i) => {
+            chispa.style.animationDelay = `${index * 0.16 + (i * 0.08)}s`;
+          });
+          palabra.classList.add("escribiendo");
+        });
+      };
+
+      // Observador para activar la escritura cuando el usuario desliza hacia cada pantalla
+      const scrollContainer = document.querySelector(".scroll-container");
+      const secciones = document.querySelectorAll(".seccion-info");
+
+      if ("IntersectionObserver" in window) {
+        const observer = new IntersectionObserver(
+          (entries) => {
+            entries.forEach((entry) => {
+              if (entry.isIntersecting) {
+                animarSeccion(entry.target);
+              } else {
+                entry.target.querySelectorAll(".palabra-magica").forEach((p) => {
+                  p.classList.remove("escribiendo");
+                });
+              }
+            });
+          },
+          {
+            root: scrollContainer,
+            threshold: 0.45
+          }
+        );
+
+        secciones.forEach((sec) => observer.observe(sec));
+      } else {
+        secciones.forEach((sec) => animarSeccion(sec));
+      }
+
+      // Activamos la primera sección apenas se abre la pantalla #elegante
+      const pantallaElegante = document.getElementById("elegante");
+      if (pantallaElegante) {
+        const mutObserver = new MutationObserver(() => {
+          if (pantallaElegante.classList.contains("activa") && secciones[0]) {
+            setTimeout(() => animarSeccion(secciones[0]), 250);
+          }
+        });
+        mutObserver.observe(pantallaElegante, { attributes: true, attributeFilter: ["class"] });
+      }
+    });
+  </script>
+</body>
+</html>
