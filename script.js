@@ -100,7 +100,7 @@ window.onload = function () {
   if (btnConfirmar) {
     btnConfirmar.addEventListener("click", (e) => {
       e.preventDefault();
-      const mensajeConfirmacion = encodeURIComponent("¡Hola! Quiero confirmar mi asistencia a tus 15 años ✨");
+      const mensajeConfirmacion = encodeURIComponent("¡Hola! Me encantó la invitación , ahí estaré para festejar tus 15 años. ¡Nos vemos pronto! ✨");
       window.open(`https://wa.me/+5493855148770?text=${mensajeConfirmacion}`, "_blank");
     });
   }
@@ -110,7 +110,7 @@ window.onload = function () {
   if (btnWhatsapp) {
     btnWhatsapp.addEventListener("click", (e) => {
       e.preventDefault();
-      const mensaje = encodeURIComponent("¡Hola! Quiero confirmar mi asistencia a tus 15 años ✨");
+      const mensaje = encodeURIComponent("¡Hola! Me encantó la invitación , ahí estaré para festejar tus 15 años. ¡Nos vemos pronto! ✨");
       window.open(`https://wa.me/+5493855148770?text=${mensaje}`, "_blank");
     });
   }
